@@ -348,6 +348,28 @@ nav {
   gap: 155px;
 }
 
+/* footer Starts */
+
+.footer {
+  margin: 0px 240px 216px 240px;
+  border-radius: 8px;
+  /* width: 1440px; */
+  height: 100px;
+  background: #fff4e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: var(--Dark-02);
+  /* text-align: center; */
+  /* margin: 0 auto;  */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 /* For mobile */
 @media screen and (max-width: 576px) {
   /* Header starts */
