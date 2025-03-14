@@ -312,7 +312,41 @@ nav {
   font-weight: 600;
 }
 
+/* Sponsor starts */
 
+.spnsr {
+  margin: 0px 240px 130px 240px;
+}
+
+.spnsr-text {
+}
+
+.spnsr-title {
+  color: var(--Dark-01);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.spnsr-para {
+  width: 542px;
+
+  color: var(--Dark-03);
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+  margin-bottom: 50px;
+}
+
+.spnsr-item {
+  display: flex;
+  gap: 155px;
+}
 
 /* For mobile */
 @media screen and (max-width: 576px) {
