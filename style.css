@@ -11,6 +11,7 @@
 
 :root {
   --Dark-01: #131313;
+  --Dark-02: #424242;
   --Dark-03: #727272;
 }
 
@@ -191,14 +192,14 @@ nav {
 }
 
 .card-title {
-  color: var(--Dark-01, #131313);
+  color: var(--Dark-01);
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
 }
 
 .card-para {
-  color: var(--Dark-03, #727272);
+  color: var(--Dark-03);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -248,6 +249,71 @@ nav {
   font-style: normal;
   font-weight: 500;
 }
+
+/* Facts starts */
+.fact {
+  margin: 0px 290px 180px 240px;
+}
+
+.fact-title {
+  color: var(--Dark-01);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.fact-para {
+  width: 542px;
+  color: var(--Dark-03);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  /* padding-right: 100px; */
+  margin-bottom: 100px;
+}
+
+.fact-item {
+  display: flex;
+  gap: 124px;
+
+  padding-left: 50px;
+}
+
+.fact-card {
+  width: 241.831px;
+  height: 241.831px;
+  /* transform: rotate(90deg); */
+
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-card-icon img {
+  display: block;
+}
+
+.f-card-num {
+  color: var(--Dark-02);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.f-card-info {
+  color: var(--Dark-03);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+
 /* For mobile */
 @media screen and (max-width: 576px) {
   /* Header starts */
